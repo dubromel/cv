@@ -1,20 +1,50 @@
-
-body {
-  background-color: powderblue;
+body{
+  margin: 0;
+  text-align: center;
+  font-family: serif;
 }
 
-hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-color: grey;
-  border-width: 6px;
-  width: 3%;
-}
 
 h1 {
-  color: #66BFBF;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 5.5rem; /* 1 em or 1 rem is 16pixels*/
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #258382;
+}
+
+h2 {
+  margin-top: 0;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 2.5rem;
+  color: #2E5959;
 }
 
 h3 {
-  color: #66BFBF;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+.paragraphe1 {
+  font-size: 2.5rem;
+}
+
+.top-container {
+  background-color: #DDF3F5;
+  padding: 20px;
+}
+
+.middle-container {
+  background-color: #DDF3F5;
+}
+
+.bottom-container {
+  background-color: #DDF3F5;
+}
+
+.middle-image {
+  width: 100%;
+}
+
+.middle-cloud {
+  position: absolute;
 }
