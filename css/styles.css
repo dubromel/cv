@@ -47,5 +47,6 @@ h3 {
 
 .middle-cloud {
   position: absolute;
+  left: 20px;
   width: 20%;
 }
