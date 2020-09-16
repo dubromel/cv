@@ -1,7 +1,7 @@
 body{
   margin: 0;
   text-align: center;
-  font-family: serif;
+  font-family: 'Literata', serif;
 }
 
 
@@ -9,19 +9,19 @@ h1 {
   margin-top: 0;
   margin-bottom: 10px;
   font-size: 5.5rem; /* 1 em or 1 rem is 16pixels*/
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: Georgia, serif;
   color: #258382;
 }
 
 h2 {
   margin-top: 0;
-  font-family: Tahoma, Geneva, sans-serif;
+  font-family: Georgia, serif;
   font-size: 2.5rem;
   color: #2E5959;
 }
 
 h3 {
-  font-family: Tahoma, Geneva, sans-serif;
+  font-family: Georgia, serif;
 }
 
 .paragraphe1 {
