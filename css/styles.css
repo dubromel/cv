@@ -10,35 +10,47 @@ h1 {
   margin-bottom: 10px;
   font-size: 5rem; /* 1 em or 1 rem is 16pixels*/
   font-family: Georgia, serif;
-  color: #258382;
+  color: #0C5073;
 }
 
 h2 {
   margin-top: 0;
   font-family: Georgia, serif;
   font-size: 2.5rem;
-  color: #2E5959;
+  color: #0C5073;
 }
 
 h3 {
   font-family: Georgia, serif;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  color: #0C5073;
+
 }
 
 .paragraphe1 {
   font-size: 2.5rem;
 }
 
+.paragraphe-text {
+	display: block;
+    margin-block-start: 0em;
+    margin-block-end: 2em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
 .top-container {
-  background-color: #DDF3F5;
+  background-color: #a9dbf5;
   padding: 20px;
 }
 
 .middle-container {
-  background-color: #DDF3F5;
+  background-color: #a9dbf5;
 }
 
 .bottom-container {
-  background-color: #DDF3F5;
+  background-color: #a9dbf5;
 }
 
 .middle-image {
@@ -52,18 +64,23 @@ h3 {
 }
 
 .skills {
-  margin: 40px auto 40px auto;
+  margin: 40px auto 40px auto; 
 }
 
 .skill-row {
-  width: 50%;
-  margin: 40px auto 40px auto;
+  width: 60%
+  margin: auto auto auto auto;
   text-align: center;
   line-height: 2;
+  color : #0C5073
 }
 
 .skill-image {
-  width: 15rem;
+  width: 5rem;
   display: block;
-  margin:auto;
+  margin: auto;
+}
+
+.paragraphe-separator {
+  border-top: 1px solid black;
 }
