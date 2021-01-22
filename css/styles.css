@@ -50,3 +50,20 @@ h3 {
   left: 20px;
   width: 20%;
 }
+
+.skills {
+  margin: 40px auto 40px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 40px auto 40px auto;
+  text-align: center;
+  line-height: 2;
+}
+
+.skill-image {
+  width: 15rem;
+  display: block;
+  margin:auto;
+}
